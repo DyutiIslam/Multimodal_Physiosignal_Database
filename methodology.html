@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How to Use & Methodology · ARL Research Repository</title>
+<meta name="description" content="Guide to using the ARL Research Repository, including the five-tier classification system, ARL relevance scoring, reading status, and systematic review workflow.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html">ARL Research Repository</a>
+    <nav>
+      <a href="index.html#explorer">Explorer</a>
+      <a class="active" href="methodology.html">How to Use</a>
+      <a href="index.html#about">About</a>
+      <a href="ARL_Research_Repository_v1_First_50.xlsx">Download Excel</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="guidehero">
+    <div class="wrap narrow">
+      <span class="eyebrow">Repository guide · v1.1</span>
+      <h1>How to use the repository.</h1>
+      <p>The Excel workbook is the master research database. This portal is the public discovery layer. The guide below explains how records are classified, reviewed, verified, and prepared for future systematic-review use.</p>
+      <div class="guidejump">
+        <a href="#tiers">Tier system</a>
+        <a href="#workflow">Adding records</a>
+        <a href="#relevance">ARL relevance</a>
+        <a href="#status">Reading status</a>
+        <a href="#systematic">Systematic review</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section narrow">
+    <div class="guideintro">
+      <span class="eyebrow">Purpose</span>
+      <h2>One repository, several research uses.</h2>
+      <p>The repository supports ARL experiment development, dataset discovery, literature review, experimental design, related-work writing, gap analysis, and the future development of a systematic review. The <strong>Excel workbook remains the source of truth</strong>; selected metadata are published to this website.</p>
+      <div class="callout"><strong>Core principle:</strong> Tier indicates relevance to the ARL research ecosystem—not scientific quality.</div>
+    </div>
+  </section>
+
+  <section id="tiers" class="tiersection">
+    <div class="wrap">
+      <div class="sectionhead">
+        <div><span class="eyebrow">Classification</span><h2>The five-tier system</h2></div>
+        <p>Use tiers to indicate how directly a resource helps us understand, design, analyze, position, or publish ARL-related research.</p>
+      </div>
+      <div class="tiergrid">
+        <article class="tiercard"><span class="tiernum">Tier 1</span><h3>Core / Must Read</h3><p>Directly comparable to ARL or essential for positioning the project.</p><ul><li>Multimodal physiology</li><li>Group or social interaction</li><li>Synchronized acquisition</li><li>Public datasets or detailed protocols</li></ul><div class="tierq">Ask: Would understanding this materially influence how we design, describe, compare, or publish ARL?</div></article>
+        <article class="tiercard"><span class="tiernum">Tier 2</span><h3>Social & Group Interaction</h3><p>Research centered on interaction among people, even when physiological coverage differs from ARL.</p><ul><li>Conversation and meetings</li><li>Collaboration and teams</li><li>Leadership and social dynamics</li><li>Dyadic or multi-party behavior</li></ul><div class="tierq">Ask: Does this help us understand or analyze interactions among people?</div></article>
+        <article class="tiercard"><span class="tiernum">Tier 3</span><h3>Decision & Behavioral Neuroscience</h3><p>Resources that explain the cognitive and behavioral processes underlying the ARL paradigm.</p><ul><li>Uncertainty and risk</li><li>Trust and deception</li><li>Belief updating</li><li>Confidence and strategy switching</li></ul><div class="tierq">Ask: Does this explain the cognitive or decision process ARL is attempting to measure?</div></article>
+        <article class="tiercard"><span class="tiernum">Tier 4</span><h3>Modality & Measurement</h3><p>Resources useful for acquiring, preprocessing, analyzing, or interpreting individual sensing modalities.</p><ul><li>EEG / ECG / HRV</li><li>EDA / GSR / EMG</li><li>Eye tracking</li><li>Audio and video</li></ul><div class="tierq">Ask: Does this help us correctly acquire, preprocess, analyze, or interpret a modality?</div></article>
+        <article class="tiercard"><span class="tiernum">Tier 5</span><h3>Acquisition & Infrastructure</h3><p>Engineering and software resources describing how multimodal experiments are implemented and synchronized.</p><ul><li>LSL and LabRecorder</li><li>XDF and event markers</li><li>Clock / network synchronization</li><li>Multi-device recording</li></ul><div class="tierq">Ask: Does this help explain how the ARL acquisition infrastructure should work?</div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section narrow">
+    <span class="eyebrow">Categories</span>
+    <h2>Tiers and research categories are different.</h2>
+    <p>A paper can be <strong>Tier 3</strong> because it supports decision neuroscience while its primary category is <strong>Deception</strong>. Recommended categories include Multimodal Dataset, Group Interaction, Decision Making, Deception, Trust, Collaboration, Social Neuroscience, Physiological Computing, EEG, ECG/HRV, EDA/GSR, EMG, Eye Tracking, Audio, Video, Synchronization, Acquisition Platform, Multimodal Fusion, Missing Modality Learning, Dataset Review, and Systematic Review.</p>
+  </section>
+
+  <section id="workflow" class="softsection">
+    <div class="wrap narrow">
+      <span class="eyebrow">Workbook workflow</span>
+      <h2>How to add a new paper or dataset</h2>
+      <ol class="steps">
+        <li><div><b>Check for duplicates.</b><span>Search the Master sheet by DOI, title, and first author before creating a new row.</span></div></li>
+        <li><div><b>Add bibliographic information.</b><span>Record title, authors, year, venue, DOI, paper URL, and open-access URL when available.</span></div></li>
+        <li><div><b>Classify the resource.</b><span>Assign tier, primary category, secondary categories, and resource type.</span></div></li>
+        <li><div><b>Record modalities individually.</b><span>Capture EEG, ECG, EDA/GSR, EMG, eye tracking, audio, video, and other signals separately rather than writing only “multimodal.”</span></div></li>
+        <li><div><b>Capture experimental characteristics.</b><span>Participants, group size, task, sessions, paradigm, duration, and controlled versus naturalistic setting.</span></div></li>
+        <li><div><b>Capture acquisition details.</b><span>Device/model, channels, sampling rate, synchronization, recording software, file format, and event-marker method when reported.</span></div></li>
+        <li><div><b>Capture dataset access.</b><span>Public/restricted status, download URL, registration, license, raw/processed data, code, and GitHub link.</span></div></li>
+        <li><div><b>Add research notes.</b><span>Why relevant to ARL, strengths, limitations, research gaps, and likely citation use.</span></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="relevance" class="wrap section narrow">
+    <span class="eyebrow">Scoring</span>
+    <h2>ARL relevance score</h2>
+    <div class="scoregrid">
+      <div><b>5</b><span><strong>Extremely relevant</strong>Directly comparable to ARL; usually shares multiple modalities plus group/social/decision characteristics.</span></div>
+      <div><b>4</b><span><strong>Highly relevant</strong>Strong overlap with one major ARL component.</span></div>
+      <div><b>3</b><span><strong>Relevant</strong>Useful for methodology, theory, or analysis.</span></div>
+      <div><b>2</b><span><strong>Peripheral</strong>Useful background with limited direct connection.</span></div>
+      <div><b>1</b><span><strong>Contextual</strong>Primarily broad background or historical context.</span></div>
+    </div>
+    <div class="callout"><strong>Important:</strong> Relevance score is independent of Tier. Tier captures the role of a resource; the score captures the strength of its connection to ARL.</div>
+  </section>
+
+  <section id="status" class="softsection">
+    <div class="wrap narrow">
+      <span class="eyebrow">Quality control</span>
+      <h2>Reading and verification status</h2>
+      <div class="statusgrid">
+        <div><b>Not Read</b><span>Identified but not reviewed.</span></div>
+        <div><b>Screened</b><span>Title and abstract reviewed.</span></div>
+        <div><b>Partial Read</b><span>Relevant sections reviewed.</span></div>
+        <div><b>Full Read</b><span>Entire paper reviewed.</span></div>
+        <div><b>Extracted</b><span>Important information entered in the database.</span></div>
+        <div><b>Verified</b><span>Entry checked against the original publication or dataset source.</span></div>
+      </div>
+      <p class="target">Target for systematic-review-quality records: <strong>Verified</strong>.</p>
+    </div>
+  </section>
+
+  <section id="systematic" class="wrap section narrow">
+    <span class="eyebrow">Future systematic review</span>
+    <h2>Curated repository today; systematic-review database later.</h2>
+    <p>The current repository should be described as a <strong>curated research database</strong>, not yet as a systematic-review database. A formal systematic review requires a documented protocol covering research questions, search databases, search strings and dates, inclusion/exclusion criteria, duplicate removal, title/abstract/full-text screening, PRISMA reporting, and quality assessment.</p>
+    <div class="twocol">
+      <div class="guidebox"><h3>Recommended future field: Discovery Method</h3><p>Systematic Search · Citation Chaining · Related Work · Dataset Search · Google Scholar · PubMed · IEEE Xplore · Scopus · Web of Science · Recommendation · Existing ARL Literature</p></div>
+      <div class="guidebox"><h3>Recommended future field: Review Eligibility</h3><p>Pending · Include · Exclude · Background Only. Also record a standardized exclusion reason where applicable.</p></div>
+    </div>
+  </section>
+
+  <section class="workflowband">
+    <div class="wrap narrow">
+      <span class="eyebrow">Source of truth</span>
+      <h2>Research-to-web workflow</h2>
+      <div class="flow"><span>Original paper / dataset</span><i>→</i><span>Verify source</span><i>→</i><span>Master Excel database</span><i>→</i><span>Quality check</span><i>→</i><span>Public portal</span></div>
+      <p>The website should not become the master database. Excel remains the research-management source of truth; the portal is the public discovery interface.</p>
+    </div>
+  </section>
+
+  <section class="wrap section narrow">
+    <span class="eyebrow">Golden rule</span>
+    <h2>Accuracy before quantity.</h2>
+    <blockquote>Do not classify papers based only on their titles. Classification should be grounded in experimental design, modalities, participants, research question, acquisition methodology, and relevance to ARL.</blockquote>
+    <p>Fifty fully verified papers are more valuable than five hundred poorly characterized records.</p>
+  </section>
+</main>
+<footer><div class="wrap">ARL Research Repository · Methodology guide v1.1 · Data source: Master_50 workbook</div></footer>
+</body>
+</html>

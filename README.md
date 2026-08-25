@@ -1,10 +1,18 @@
-# ARL Research Repository
-Static GitHub Pages portal generated from `ARL_Research_Repository_v1_First_50.xlsx`.
+# ARL Research Repository — GitHub Pages Portal v1.1
 
-## Publish on GitHub Pages
-1. Create a public GitHub repository.
-2. Upload all files in this folder to the repository root.
-3. In GitHub: Settings → Pages → Build and deployment → Deploy from a branch.
-4. Select `main` and `/ (root)`, then Save.
+A static, searchable research portal for multimodal physiological computing, social interaction, decision-making, and synchronized acquisition literature.
 
-The site has no backend and requires no build step.
+## Files
+- `index.html` — main portal and 50-record explorer
+- `methodology.html` — How to Use guide, tier definitions, quality-control workflow, and systematic-review notes
+- `assets/style.css` — site styling
+- `assets/app.js` — explorer/search/filter logic
+- `data/papers.json` — portal data
+- `ARL_Research_Repository_v1_First_50.xlsx` — master workbook download
+- `.nojekyll` — GitHub Pages compatibility
+
+## GitHub Pages update
+Upload/replace these files in the existing repository. GitHub Pages will redeploy automatically from the configured `main` branch and `/ (root)` folder.
+
+## Data principle
+The Excel workbook remains the research-management source of truth. The web portal is the public discovery interface.
