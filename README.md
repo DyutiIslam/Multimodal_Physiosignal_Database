@@ -1,18 +1,7 @@
-# ARL Research Repository — GitHub Pages Portal v1.1
+# MDMER v2.0
 
-A static, searchable research portal for multimodal physiological computing, social interaction, decision-making, and synchronized acquisition literature.
+GitHub Pages-ready static site for the Multimodal Decision-Making Evidence Repository.
 
-## Files
-- `index.html` — main portal and 50-record explorer
-- `methodology.html` — How to Use guide, tier definitions, quality-control workflow, and systematic-review notes
-- `assets/style.css` — site styling
-- `assets/app.js` — explorer/search/filter logic
-- `data/papers.json` — portal data
-- `ARL_Research_Repository_v1_First_50.xlsx` — master workbook download
-- `.nojekyll` — GitHub Pages compatibility
+Upload the **contents of this folder** to the root of the existing GitHub repository. Keep `index.html` at the root. If GitHub Pages is already configured for `main` / root, it will redeploy automatically.
 
-## GitHub Pages update
-Upload/replace these files in the existing repository. GitHub Pages will redeploy automatically from the configured `main` branch and `/ (root)` folder.
-
-## Data principle
-The Excel workbook remains the research-management source of truth. The web portal is the public discovery interface.
+External datasets/studies remain clearly separated from the proposed ARL comparison case.
