@@ -1,0 +1,11 @@
+﻿Candidate Gap,Challenge Result,Current Evidence Strength,Interpretation
+Group ≥3 + synchronized physiology + decision-making,CHALLENGED,Weak as novelty claim,"Burns/Gordon dataset already has 3-person group decision-making with simultaneous ECG, EDA, respiration and synchronized video."
+Group ≥3 + EEG hyperscanning,CHALLENGED,Not novel,"Multiple triadic EEG hyperscanning studies now exist, including public/contemporary datasets."
+Group ≥3 + repeated cooperative rounds + hidden adversary/deception,CHALLENGED,Not novel by itself,Kennedy et al. (2026) includes triadic repeated cooperative rounds and a secretly instructed adversary.
+Group ≥3 + EEG + repeated rounds + adversary + LSL,CHALLENGED,Very important comparator,"Kennedy et al. uses EEG, video, keyboard event markers and LSL synchronization in a triadic adversarial cooperative game."
+Group size 5 + physiology + strategic persuasion + consensus,CHALLENGED,Not novel by itself,"Thorson et al. uses five-person groups, continuous cardiac physiology and covertly assigned advocates during consensus decision-making."
+Group ≥3 + eye tracking + decision-making,CHALLENGED,Not novel by itself,A 2025 EyeLogic study uses 24 three-person groups in individual/group decision phases with synchronized gaze.
+Group ≥3 + explicit confidence,CHALLENGED,Not novel by itself,Collective-decision studies include groups up to four with explicit confidence sharing.
+Deception + multimodal physiology + audio/video,CHALLENGED,Not novel by itself,"MuDD and CogniModal-D demonstrate rich multimodal deception sensing, but in individual rather than group interaction."
+Broad neural + peripheral physiology + eye + audio/video in one study,PARTIALLY CHALLENGED,Moderate gap,"CogniModal-D is already very close on sensing breadth, but lacks multi-person group interaction and ARL-style repeated social decisions."
+Full intersection: group ≥3 + EEG + peripheral physiology + eye + audio/video + repeated decisions + confidence + deception + event-level synchronization,NOT FOUND,Strongest surviving gap,"No targeted search result found the complete intersection. The closest challenger (Kennedy et al.) has triadic EEG + repeated adversarial rounds + video + LSL, but lacks peripheral physiology, eye tracking, audio and confidence."
